@@ -1,1 +1,9 @@
-﻿node_modules/
+node_modules/
+
+# Educational project files
+*.tmp
+*.backup
+study-sessions/
+practice-code/
+temp-notes/
+.study-logs/

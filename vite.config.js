@@ -1,3 +1,4 @@
+// Vite configuration for CS Notes Hub - Optimized for educational content delivery
 import { defineConfig } from 'vite';
 
 export default defineConfig({
