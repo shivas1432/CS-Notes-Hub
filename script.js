@@ -1,3 +1,6 @@
+// CS Notes Hub - Educational Platform Utilities (January 2025)
+// Enhanced for computer science learning and study management
+
 console.log('Script starting...');
 window.addEventListener('error', function(e) {
     console.error('Global error:', e.error, 'at', e.filename, ':', e.lineno);
