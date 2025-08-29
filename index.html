@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Notes Hub - Your Knowledge Repository</title>
+    <meta name="description" content="Discover, Share & Learn Computer Science with our comprehensive notes repository">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- PDF.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <a href="https://github.com" target="_blank" class="github-link">
+                    <i data-lucide="github"></i>
+                </a>
+                <h1 class="logo">CS Notes Hub</h1>
+            </div>
+            <div class="header-right">
+                <a href="#support" class="support-link">24/7 Support</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i data-lucide="sun" class="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <h2 class="hero-title">CS Notes Hub</h2>
+                <p class="hero-subtitle">Your Knowledge Repository</p>
+                <p class="hero-description">Discover, Share & Learn Computer Science</p>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" placeholder="Search notes, topics, or keywords..." class="search-input" id="globalSearch">
+                    </div>
+                </div>
+
+                <div class="quick-filters">
+                    <button class="filter-pill active" data-category="all">All</button>
+                    <button class="filter-pill" data-category="data-structures">Data Structures</button>
+                    <button class="filter-pill" data-category="algorithms">Algorithms</button>
+                    <button class="filter-pill" data-category="web-development">Web Dev</button>
+                    <button class="filter-pill" data-category="machine-learning">ML</button>
+                </div>
+
+                <div class="main-actions">
+                    <button class="action-btn primary" onclick="showSection('browse')">
+                        <i data-lucide="book-open"></i>
+                        Browse Existing Notes
+                    </button>
+                    <button class="action-btn secondary" onclick="showSection('upload')">
+                        <i data-lucide="upload"></i>
+                        Upload New File
+                    </button>
+                    <button class="action-btn tertiary" onclick="window.open('https://github.com', '_blank')">
+                        <i data-lucide="git-pull-request"></i>
+                        Raise Pull Request
+                    </button>
+                </div>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="categories-grid">
+                <h3 class="section-title">Browse by Category</h3>
+                <div class="grid" id="categoriesGrid">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Recent Uploads -->
+            <div class="recent-uploads">
+                <h3 class="section-title">Recent Uploads</h3>
+                <div class="uploads-grid" id="recentUploads">
+                    <!-- Recent uploads will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Browse Section -->
+        <section id="browse" class="section">
+            <div class="section-header">
+                <h2 class="page-title">Browse Notes</h2>
+                <button class="back-btn" onclick="showSection('home')">
+                    <i data-lucide="arrow-left"></i>
+                    Back to Home
+                </button>
+            </div>
+
+            <div class="browse-controls">
+                <div class="search-container">
+                    <div class="search-box">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" placeholder="Search files..." class="search-input" id="browseSearch">
+                    </div>
+                </div>
+
+                <div class="filters-row">
+                    <select class="filter-select" id="categoryFilter">
+                        <option value="">All Categories</option>
+                    </select>
+                    <select class="filter-select" id="sortFilter">
+                        <option value="name">Sort by Name</option>
+                        <option value="date">Sort by Date</option>
+                        <option value="size">Sort by Size</option>
+                        <option value="downloads">Sort by Downloads</option>
+                    </select>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid">
+                            <i data-lucide="grid-3x3"></i>
+                        </button>
+                        <button class="view-btn" data-view="list">
+                            <i data-lucide="list"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="files-container">
+                <div class="files-grid" id="filesGrid">
+                    <!-- Files will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section id="upload" class="section">
+            <div class="section-header">
+                <h2 class="page-title">Upload New File</h2>
+                <button class="back-btn" onclick="showSection('home')">
+                    <i data-lucide="arrow-left"></i>
+                    Back to Home
+                </button>
+            </div>
+
+            <div class="upload-container">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <i data-lucide="upload-cloud" class="upload-icon"></i>
+                        <h3>Drag & Drop your file here</h3>
+                        <p>or <span class="upload-link" id="uploadLink">browse to choose file</span></p>
+                        <p class="upload-note">Supports PDF, DOC, DOCX, PPT, PPTX (Max 50MB)</p>
+                    </div>
+                    <input type="file" id="fileInput" accept=".pdf,.doc,.docx,.ppt,.pptx" hidden>
+                </div>
+
+                <div class="upload-form" id="uploadForm" style="display: none;">
+                    <div class="form-group">
+                        <label for="fileTitle">Title</label>
+                        <input type="text" id="fileTitle" placeholder="Enter file title">
+                    </div>
+                    <div class="form-group">
+                        <label for="fileCategory">Category</label>
+                        <select id="fileCategory">
+                            <option value="">Select Category</option>
+                            <option value="algorithms">Algorithms</option>
+                            <option value="data-structures">Data Structures</option>
+                            <option value="databases">Databases</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="programming-languages">Programming Languages</option>
+                            <option value="machine-learning">Machine Learning</option>
+                            <option value="operating-systems">Operating Systems</option>
+                            <option value="computer-networks">Computer Networks</option>
+                            <option value="software-engineering">Software Engineering</option>
+                            <option value="mobile-development">Mobile Development</option>
+                            <option value="cybersecurity">Cybersecurity</option>
+                            <option value="devops">DevOps</option>
+                            <option value="interview-preparation">Interview Preparation</option>
+                            <option value="general-computer-science">General Computer Science</option>
+                            <option value="cheat-sheets">Cheat Sheets</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="fileDescription">Description</label>
+                        <textarea id="fileDescription" placeholder="Brief description of the content"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn secondary" onclick="cancelUpload()">Cancel</button>
+                        <button type="button" class="btn primary" onclick="uploadFile()">
+                            <i data-lucide="upload"></i>
+                            Upload File
+                        </button>
+                    </div>
+                </div>
+
+                <div class="upload-progress" id="uploadProgress" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Uploading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- View Section -->
+        <section id="view" class="section">
+            <div class="section-header">
+                <h2 class="page-title" id="viewTitle">View File</h2>
+                <div class="view-actions">
+                    <button class="btn secondary" id="downloadBtn">
+                        <i data-lucide="download"></i>
+                        Download
+                    </button>
+                    <button class="btn secondary" id="fullscreenBtn">
+                        <i data-lucide="maximize"></i>
+                        Fullscreen
+                    </button>
+                    <button class="back-btn" onclick="showSection('browse')">
+                        <i data-lucide="arrow-left"></i>
+                        Back to Browse
+                    </button>
+                </div>
+            </div>
+
+            <div class="viewer-container">
+                <div class="pdf-viewer" id="pdfViewer">
+                    <canvas id="pdfCanvas"></canvas>
+                </div>
+                <div class="viewer-controls">
+                    <button class="viewer-btn" id="prevPage">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    <span class="page-info" id="pageInfo">Page 1 of 1</span>
+                    <button class="viewer-btn" id="nextPage">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+                    <button class="viewer-btn" id="zoomOut">
+                        <i data-lucide="zoom-out"></i>
+                    </button>
+                    <span class="zoom-info" id="zoomInfo">100%</span>
+                    <button class="viewer-btn" id="zoomIn">
+                        <i data-lucide="zoom-in"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Results Section -->
+        <section id="search" class="section">
+            <div class="section-header">
+                <h2 class="page-title">Search Results</h2>
+                <button class="back-btn" onclick="showSection('home')">
+                    <i data-lucide="arrow-left"></i>
+                    Back to Home
+                </button>
+            </div>
+
+            <div class="search-info" id="searchInfo">
+                <!-- Search results info will be populated by JavaScript -->
+            </div>
+
+            <div class="files-container">
+                <div class="files-grid" id="searchResults">
+                    <!-- Search results will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
