@@ -1,0 +1,197 @@
+﻿Advanced-JavaScript-Concepts | cheat-sheets\Advanced-JavaScript-Concepts.pdf
+CSS-Properties-Cheat-Sheet | cheat-sheets\CSS-Properties-Cheat-Sheet.pdf
+Data-Manipulation-with-Python | cheat-sheets\Data-Manipulation-with-Python.pdf
+Executive-Leadership-Handbook | cheat-sheets\Executive-Leadership-Handbook.pdf
+Git-Commands-Reference | cheat-sheets\Git-Commands-Reference.pdf
+Git-Version-Control-Guide | cheat-sheets\Git-Version-Control-Guide.pdf
+HTML-Tags-Reference | cheat-sheets\HTML-Tags-Reference.pdf
+Java-Complete-Reference | cheat-sheets\Java-Complete-Reference.pdf
+Java-OOP-Concepts-Guide | cheat-sheets\Java-OOP-Concepts-Guide.pdf
+JavaScript-ES6-Quick-Reference | cheat-sheets\JavaScript-ES6-Quick-Reference.pdf
+Linux-Terminal-Commands | cheat-sheets\Linux-Terminal-Commands.pdf
+MySQL-Database-Commands | cheat-sheets\MySQL-Database-Commands.pdf
+Python-Built-in-Methods-Reference | cheat-sheets\Python-Built-in-Methods-Reference.pdf
+SQL-Advanced-Reference | cheat-sheets\SQL-Advanced-Reference.pdf
+SQL-Basic-Commands | cheat-sheets\SQL-Basic-Commands.pdf
+SQL-Commands-Reference | cheat-sheets\SQL-Commands-Reference.pdf
+SQL-Fundamentals-Reference | cheat-sheets\SQL-Fundamentals-Reference.pdf
+SQL-Query-Commands | cheat-sheets\SQL-Query-Commands.pdf
+Ultimate-HTML-Reference | cheat-sheets\Ultimate-HTML-Reference.pdf
+Ultimate-Java-Programming-Guide | cheat-sheets\Ultimate-Java-Programming-Guide.pdf
+Unix-System-Administration | cheat-sheets\Unix-System-Administration.pdf
+VS-Code-Shortcuts-Guide | cheat-sheets\VS-Code-Shortcuts-Guide.pdf
+Windows-PowerShell-Commands | cheat-sheets\Windows-PowerShell-Commands.pdf
+Advanced-Cybersecurity-Techniques | cybersecurity\Advanced-Cybersecurity-Techniques.pdf
+Blockchain-Technology-Applications | cybersecurity\Blockchain-Technology-Applications.pdf
+Cryptocurrency-and-Blockchain-Security | cybersecurity\Cryptocurrency-and-Blockchain-Security.pdf
+Cyber-Security-Essentials | cybersecurity\Cyber-Security-Essentials.pdf
+Introduction-to-Cybersecurity | cybersecurity\Introduction-to-Cybersecurity.pdf
+Advanced-DSA-with-Go-Programming | data-structures\Advanced-DSA-with-Go-Programming.pdf
+Arrays-Implementation-in-Java | data-structures\Arrays-Implementation-in-Java.pdf
+Data-Structures-Comprehensive-Guide | data-structures\Data-Structures-Comprehensive-Guide.pdf
+Data-Structures-Practice-Problems | data-structures\Data-Structures-Practice-Problems.pdf
+DSA-Complete-Study-Guide | data-structures\DSA-Complete-Study-Guide.pdf
+DSA-Handwritten-Study-Notes | data-structures\DSA-Handwritten-Study-Notes.pdf
+DSA-Practice-Questions-Collection | data-structures\DSA-Practice-Questions-Collection.pdf
+Java-Data-Structures-Fourth-Edition | data-structures\Java-Data-Structures-Fourth-Edition.pdf
+Python-Data-Structures-Advanced | data-structures\Python-Data-Structures-Advanced.pdf
+Python-Data-Structures-Handbook | data-structures\Python-Data-Structures-Handbook.pdf
+Complete-DBMS-Study-Guide | databases\Complete-DBMS-Study-Guide.pdf
+Database-Management-Systems | databases\Database-Management-Systems.pdf
+DBMS-Handwritten-Notes | databases\DBMS-Handwritten-Notes.pdf
+MongoDB-Complete-Guide | databases\MongoDB-Complete-Guide.pdf
+SQL-Beginners-Guide | databases\SQL-Beginners-Guide.pdf
+SQL-Commands-List | databases\SQL-Commands-List.pdf
+SQL-Complete-Handwritten-Guide | databases\SQL-Complete-Handwritten-Guide.pdf
+SQL-Complete-Tutorial | databases\SQL-Complete-Tutorial.pdf
+SQL-Crash-Course | databases\SQL-Crash-Course.pdf
+SQL-Fundamentals-Notes | databases\SQL-Fundamentals-Notes.pdf
+SQL-Handwritten-Guide | databases\SQL-Handwritten-Guide.pdf
+SQL-Intelligence-Questions-Part-2 | databases\SQL-Intelligence-Questions-Part-2.pdf
+SQL-Intelligence-Questions | databases\SQL-Intelligence-Questions.pdf
+SQL-Joins-Complete-Guide | databases\SQL-Joins-Complete-Guide.pdf
+SQL-Keys-and-Constraints | databases\SQL-Keys-and-Constraints.pdf
+SQL-Operators-Reference | databases\SQL-Operators-Reference.pdf
+SQL-Programming-Notes | databases\SQL-Programming-Notes.pdf
+SQL-Query-Examples | databases\SQL-Query-Examples.pdf
+SQL-Study-Notes-Part-1 | databases\SQL-Study-Notes-Part-1.pdf
+SQL-Top-50-Interview-Questions | databases\SQL-Top-50-Interview-Questions.pdf
+SQL-Useful-Study-Notes | databases\SQL-Useful-Study-Notes.pdf
+AI-ML-for-DevOps | devops\AI-ML-for-DevOps.pdf
+Command-Line-Interface-Guide | devops\Command-Line-Interface-Guide.pdf
+Linux-System-Administration | devops\Linux-System-Administration.pdf
+VS-Code-Windows-Shortcuts | devops\VS-Code-Windows-Shortcuts.pdf
+Command-Line-Tutorial | general-computer-science\Command-Line-Tutorial.pdf
+Computer-Architecture-Fundamentals | general-computer-science\Computer-Architecture-Fundamentals.pdf
+Computer-Graphics-Principles | general-computer-science\Computer-Graphics-Principles.pdf
+Computer-Science-All-in-One | general-computer-science\Computer-Science-All-in-One.pdf
+Computer-Science-Reference-Guide | general-computer-science\Computer-Science-Reference-Guide.pdf
+CS-Fundamentals-Chapter-2 | general-computer-science\CS-Fundamentals-Chapter-2.pdf
+CS-Fundamentals-Chapter-3 | general-computer-science\CS-Fundamentals-Chapter-3.pdf
+CS-Fundamentals-Chapter-4 | general-computer-science\CS-Fundamentals-Chapter-4.pdf
+CS-Fundamentals-Chapter-5 | general-computer-science\CS-Fundamentals-Chapter-5.pdf
+CS-Fundamentals-Chapter-6 | general-computer-science\CS-Fundamentals-Chapter-6.pdf
+Data-Structures-Handwritten-Guide | general-computer-science\Data-Structures-Handwritten-Guide.pdf
+Data-Structures-Study-Notes | general-computer-science\Data-Structures-Study-Notes.pdf
+Data-Structures-Theory | general-computer-science\Data-Structures-Theory.pdf
+Django-Web-Framework-Guide | general-computer-science\Django-Web-Framework-Guide.pdf
+Excel-Data-Analysis-Fundamentals | general-computer-science\Excel-Data-Analysis-Fundamentals.pdf
+Full-Stack-Development-Roadmap | general-computer-science\Full-Stack-Development-Roadmap.pdf
+Oracle-Cloud-Platform-Introduction | general-computer-science\Oracle-Cloud-Platform-Introduction.pdf
+Power-BI-Analytics-Mastery | general-computer-science\Power-BI-Analytics-Mastery.pdf
+Pro.Angular.5th.Edition.Apress.9781484281758.EBooksWorld.ir | general-computer-science\Pro.Angular.5th.Edition.Apress.9781484281758.EBooksWorld.ir.pdf
+Programming-for-Beginners-Guide | general-computer-science\Programming-for-Beginners-Guide.pdf
+SEO-Complete-Strategy-Guide | general-computer-science\SEO-Complete-Strategy-Guide.pdf
+Apache-Spark-Interview-Questions | interview-preparation\Apache-Spark-Interview-Questions.pdf
+Backend-Frontend-Interview-Guide | interview-preparation\Backend-Frontend-Interview-Guide.pdf
+Core-Java-Interview-Mastery | interview-preparation\Core-Java-Interview-Mastery.pdf
+Flutter-Development-Interview-QA | interview-preparation\Flutter-Development-Interview-QA.pdf
+Git-GitHub-Interview-Preparation | interview-preparation\Git-GitHub-Interview-Preparation.pdf
+Git-Version-Control-Interview-QA | interview-preparation\Git-Version-Control-Interview-QA.pdf
+Java-Interview-QA-Part-1 | interview-preparation\Java-Interview-QA-Part-1.pdf
+Java-Interview-Questions-Answers | interview-preparation\Java-Interview-Questions-Answers.pdf
+Java-Interview-Questions-Collection | interview-preparation\Java-Interview-Questions-Collection.pdf
+Java-Top-100-Interview-Questions | interview-preparation\Java-Top-100-Interview-Questions.pdf
+OOP-Concepts-Interview-Questions | interview-preparation\OOP-Concepts-Interview-Questions.pdf
+OOP-Interview-Questions-Guide | interview-preparation\OOP-Interview-Questions-Guide.pdf
+OOP-Top-50-Interview-Questions | interview-preparation\OOP-Top-50-Interview-Questions.pdf
+Power-BI-Interview-Preparation | interview-preparation\Power-BI-Interview-Preparation.pdf
+Python-Interview-QA-Guide | interview-preparation\Python-Interview-QA-Guide.pdf
+Python-Interview-Questions-Collection | interview-preparation\Python-Interview-Questions-Collection.pdf
+Python-Programming-Interview-Guide | interview-preparation\Python-Programming-Interview-Guide.pdf
+Python-Programming-Interview-Questions | interview-preparation\Python-Programming-Interview-Questions.pdf
+Python-Top-50-Interview-Questions | interview-preparation\Python-Top-50-Interview-Questions.pdf
+SQL-Interview-Preparation-Guide | interview-preparation\SQL-Interview-Preparation-Guide.pdf
+SQL-Interview-QA-Complete | interview-preparation\SQL-Interview-QA-Complete.pdf
+SQL-Interview-Questions-Answers | interview-preparation\SQL-Interview-Questions-Answers.pdf
+SQL-Interview-Questions-PDF | interview-preparation\SQL-Interview-Questions-PDF.pdf
+SQL-Practice-Interview-Problems | interview-preparation\SQL-Practice-Interview-Problems.pdf
+SQL-Practice-Questions-Part-2 | interview-preparation\SQL-Practice-Questions-Part-2.pdf
+SQL-Server-Interview-Questions | interview-preparation\SQL-Server-Interview-Questions.pdf
+Technical-Interview-Challenges | interview-preparation\Technical-Interview-Challenges.pdf
+Version-Control-Interview-Guide | interview-preparation\Version-Control-Interview-Guide.pdf
+Artificial-Intelligence-Fundamentals | machine-learning\Artificial-Intelligence-Fundamentals.pdf
+Data-Analysis-with-Pandas | machine-learning\Data-Analysis-with-Pandas.pdf
+Machine-Learning-Complete-Guide | machine-learning\Machine-Learning-Complete-Guide.pdf
+ML-Algorithms-Handbook | machine-learning\ML-Algorithms-Handbook.pdf
+c interview questions handwritten notes (1) | programming-languages\C_CPlusPlus\c interview questions handwritten notes (1).pdf
+C++ Complete Handwritten Notes | programming-languages\C_CPlusPlus\C++ Complete Handwritten Notes.pdf
+C++ | programming-languages\C_CPlusPlus\C++.pdf
+C++_notes | programming-languages\C_CPlusPlus\C++_notes.pdf
+oops in c++ | programming-languages\C_CPlusPlus\oops in c++.pdf
+🔹Oops in c++🔹 INTERVIEW ◼️SERIES -2  | programming-languages\C_CPlusPlus\🔹Oops in c++🔹 INTERVIEW ◼️SERIES -2 .pdf
+Alphabet Patterns In Java | programming-languages\Java\Alphabet Patterns In Java.pdf
+Data Types & Variables in Java | programming-languages\Java\Data Types & Variables in Java.pdf
+Full Course OOP Using Java | programming-languages\Java\Full Course OOP Using Java.pdf
+Inheritance in Java | programming-languages\Java\Inheritance in Java.pdf
+JAVA HANDWRITTEN NOTES (2) | programming-languages\Java\JAVA HANDWRITTEN NOTES (2).pdf
+Java Handwritten Notes | programming-languages\Java\Java Handwritten Notes.pdf
+java programs | programming-languages\Java\java programs.pdf
+Java_Programming_Handwritten_Notes_for_Core_to_Advanced_Concepts | programming-languages\Java\Java_Programming_Handwritten_Notes_for_Core_to_Advanced_Concepts.pdf
+OOP concepts in java  | programming-languages\Java\OOP concepts in java .pdf
+OOPConcepts | programming-languages\Java\OOPConcepts.pdf
+oop_java | programming-languages\Java\oop_java.pdf
+Operators & Control Statement in java | programming-languages\Java\Operators & Control Statement in java.pdf
+30-days-of-react-ebook-fullstackio | programming-languages\JavaScript\30-days-of-react-ebook-fullstackio.pdf
+40 nodejs interviews  | programming-languages\JavaScript\40 nodejs interviews .pdf
+400+ javascript questions  | programming-languages\JavaScript\400+ javascript questions .pdf
+javaScript handwritten notes (1) | programming-languages\JavaScript\javaScript handwritten notes (1).pdf
+javaScript handwritten notes (2) | programming-languages\JavaScript\javaScript handwritten notes (2).pdf
+javaScript handwritten notes (3) | programming-languages\JavaScript\javaScript handwritten notes (3).pdf
+javaScript handwritten notes | programming-languages\JavaScript\javaScript handwritten notes.pdf
+JavaScript Notes (1) | programming-languages\JavaScript\JavaScript Notes (1).pdf
+JavaScript Notes By Yandyesh | programming-languages\JavaScript\JavaScript Notes By Yandyesh.pdf
+Javascript- Full Notes | programming-languages\JavaScript\Javascript- Full Notes.pdf
+JS intermediate level | programming-languages\JavaScript\JS intermediate level.pdf
+JS Interview QA Post | programming-languages\JavaScript\JS Interview QA Post.pdf
+NodeJS-Handwritten-Notes | programming-languages\JavaScript\NodeJS-Handwritten-Notes.pdf
+React Js (2) | programming-languages\JavaScript\React Js (2).pdf
+React js Handwritten Notes -3 | programming-languages\JavaScript\React js Handwritten Notes -3.pdf
+React Js | programming-languages\JavaScript\React Js.pdf
+react post (1) | programming-languages\JavaScript\react post (1).pdf
+Vuejs complete guide | programming-languages\JavaScript\Vuejs complete guide.pdf
+Web_Development_with_Node_Express | programming-languages\JavaScript\Web_Development_with_Node_Express.pdf
+android_programming_with_kotlin_for_beginners_(2019) | programming-languages\Kotlin\android_programming_with_kotlin_for_beginners_(2019).pdf
+Apress_Learn_Kotlin_for_Android_Development_www_EBooksWorld_ir | programming-languages\Kotlin\Apress_Learn_Kotlin_for_Android_Development_www_EBooksWorld_ir.pdf
+kotlin | programming-languages\Kotlin\kotlin.pdf
+KotlinNotesForProfessionals | programming-languages\Kotlin\KotlinNotesForProfessionals.pdf
+Professional_Android_Application_Development | programming-languages\Kotlin\Professional_Android_Application_Development.pdf
+PHP Handwritten Notes | programming-languages\Other_Languages\PHP Handwritten Notes.pdf
+R_language Notes | programming-languages\Other_Languages\R_language Notes.pdf
+Important [ Python Built-in Methods ] {CheatSheet} | programming-languages\Python\Important [ Python Built-in Methods ] {CheatSheet}.pdf
+Introduction_to_Machine_Learning_with_Python_PDFDrive_com_min | programming-languages\Python\Introduction_to_Machine_Learning_with_Python_PDFDrive_com_min.pdf
+python basic programes | programming-languages\Python\python basic programes.pdf
+Python Basics to Advanced Notes | programming-languages\Python\Python Basics to Advanced Notes.pdf
+Python Basics to Advanced Notes📚 (1) (1) | programming-languages\Python\Python Basics to Advanced Notes📚 (1) (1).pdf
+Python Data Stracture | programming-languages\Python\Python Data Stracture.pdf
+Python HandWritten Notes (2) | programming-languages\Python\Python HandWritten Notes (2).pdf
+Python Handwritten Notes (3) | programming-languages\Python\Python Handwritten Notes (3).pdf
+Python Handwritten Notes . .  (2) | programming-languages\Python\Python Handwritten Notes . .  (2).pdf
+Python Handwritten Notes . .  | programming-languages\Python\Python Handwritten Notes . . .pdf
+Python Handwritten Notes PDF Guide | programming-languages\Python\Python Handwritten Notes PDF Guide.pdf
+python handwritten notes | programming-languages\Python\python handwritten notes.pdf
+Python Notes  | programming-languages\Python\Python Notes .pdf
+Python Notes By Yadnyesh! | programming-languages\Python\Python Notes By Yadnyesh!.pdf
+python programming handwritten notes | programming-languages\Python\python programming handwritten notes.pdf
+Python short notes ✅ Chapter 1 📝 | programming-languages\Python\Python short notes ✅ Chapter 1 📝.pdf
+Python | programming-languages\Python\Python.pdf
+API Full Course | web-development\Backend\API Full Course.pdf
+100 HTML Interview QA | web-development\Frontend\100 HTML Interview QA.pdf
+basics of html post | web-development\Frontend\basics of html post.pdf
+Basics of html | web-development\Frontend\Basics of html.pdf
+CSS Complete Guide in 44 min (1) (1) | web-development\Frontend\CSS Complete Guide in 44 min (1) (1).pdf
+css_interview_questions | web-development\Frontend\css_interview_questions.pdf
+frontend-en | web-development\Frontend\frontend-en.pdf
+HTML Deep Dive Notes by Yadnyesh | web-development\Frontend\HTML Deep Dive Notes by Yadnyesh.pdf
+HTML Handwritten Notes (1) | web-development\Frontend\HTML Handwritten Notes (1).pdf
+HTML Handwritten Notes (2) | web-development\Frontend\HTML Handwritten Notes (2).pdf
+HTML Handwritten Notes (3) | web-development\Frontend\HTML Handwritten Notes (3).pdf
+HTML Handwritten Notes  | web-development\Frontend\HTML Handwritten Notes .pdf
+HTML Handwritten Notes | web-development\Frontend\HTML Handwritten Notes.pdf
+html tags  | web-development\Frontend\html tags .pdf
+HTML Tags List (2) | web-development\Frontend\HTML Tags List (2).pdf
+HTML Tags List | web-development\Frontend\HTML Tags List.pdf
+the-complete-reference-html-css-fifth-edition | web-development\Frontend\the-complete-reference-html-css-fifth-edition.pdf
+Advanced web development Project | web-development\Full_Stack\Advanced web development Project.pdf
+Full Stack Development-Digital Notes | web-development\Full_Stack\Full Stack Development-Digital Notes.pdf
+Modern Frontend Course | web-development\Full_Stack\Modern Frontend Course.pdf
