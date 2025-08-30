@@ -16,7 +16,7 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     
     <link rel="stylesheet" href="style.css">
-     <script src="script.js" defer></script>
+   
 </head>
 <body>
     <!-- Header -->
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="main-actions">
-                    <button class="action-btn primary" onclick="showSection('browse')">
+                    <button class="action-btn primary" onclick="setTimeout(() => showSection('browse'), 100)">
                         <i data-lucide="book-open"></i>
                         Browse Existing Notes
                     </button>
@@ -285,7 +285,7 @@
     <div class="loading-overlay" id="loadingOverlay">
         <div class="spinner"></div>
     </div>
-
+<script src="script.js"></script>
    
 </body>
 </html>
