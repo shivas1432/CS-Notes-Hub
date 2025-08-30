@@ -1,4 +1,7 @@
-console.log('Script loaded successfully');
+console.log('Script starting...');
+window.addEventListener('error', function(e) {
+    console.error('Global error:', e.error, 'at', e.filename, ':', e.lineno);
+});
 // Global State Management
 let currentTheme = localStorage.getItem('theme') || 'light';
 let currentSection = 'home';
@@ -992,3 +995,4 @@ window.addEventListener('resize', () => {
         renderPage(pageNum);
     }
 });
+console.log('Script completed successfully');
