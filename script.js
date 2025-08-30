@@ -1,3 +1,4 @@
+console.log('Script loaded successfully');
 // Global State Management
 let currentTheme = localStorage.getItem('theme') || 'light';
 let currentSection = 'home';
