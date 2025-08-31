@@ -342,7 +342,7 @@ function initializeIcons() {
 async function loadFilesData() {
     try {
         console.log('Attempting to fetch data/files-index.json...');
-        const response = await fetch('data/files-index.json');
+        const response = await fetch('/data/files-index.json');
         console.log('Fetch response:', response.status, response.statusText);
         
         if (response.ok) {
