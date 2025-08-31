@@ -338,11 +338,11 @@ function updateThemeIcon() {
 function initializeIcons() {
     lucide.createIcons();
 }
-// Load Files Data
 async function loadFilesData() {
     try {
-        console.log('Attempting to fetch data/files-index.json...');
-        const response = await fetch('data/files-index.json');
+        console.log('Attempting to fetch files data...');
+        // Use the full GitHub raw URL instead of relative path
+        const response = await fetch('https://raw.githubusercontent.com/shivas1432/CS-Notes-Hub/main/data/files-index.json');
         console.log('Fetch response:', response.status, response.statusText);
         
         if (response.ok) {
@@ -360,7 +360,6 @@ async function loadFilesData() {
         filesData = generateSampleData();
     }
 }
-
 function generateSampleData() {
     return [
         {
