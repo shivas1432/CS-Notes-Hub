@@ -1033,7 +1033,7 @@ async function initPDFViewer(file) {
     
     try {
         // Construct correct PDF path
-        const pdfUrl = `/notes/${file.url}`;
+        const pdfUrl = file.url;
 
         console.log('Loading PDF from:', pdfUrl);
         
@@ -1193,7 +1193,7 @@ function downloadFile(file) {
     try {
         // Create download link
         const link = document.createElement('a');
-        link.href = `notes/${file.url}`;
+       link.href = file.url;
         link.download = file.name;
         link.target = '_blank';
         
