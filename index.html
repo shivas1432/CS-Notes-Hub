@@ -338,19 +338,24 @@ function updateThemeIcon() {
 function initializeIcons() {
     lucide.createIcons();
 }
-
-// Data Management
+// Load Files Data
 async function loadFilesData() {
     try {
+        console.log('Attempting to fetch data/files-index.json...');
         const response = await fetch('data/files-index.json');
+        console.log('Fetch response:', response.status, response.statusText);
+        
         if (response.ok) {
             const data = await response.json();
+            console.log('Loaded data:', data);
             filesData = data.files || [];
+            console.log('Files loaded:', filesData.length);
         } else {
-            // Initialize with sample data if file doesn't exist
+            console.log('Response not OK, using sample data');
             filesData = generateSampleData();
         }
     } catch (error) {
+        console.error('Fetch failed:', error);
         console.log('Loading sample data...');
         filesData = generateSampleData();
     }
@@ -658,20 +663,36 @@ function changePage(page) {
     currentPage = page;
     renderFilesGrid();
 }
+// Search and Filter Functions with Debounce
+let globalSearchTimeout;
+let browseSearchTimeout;
 
-// Search and Filter Functions
 function handleGlobalSearch(event) {
     const query = event.target.value.trim();
-    if (query.length > 0) {
-        const results = searchFiles(query);
-        showSearchResults(query, results);
-    }
+    
+    // Clear existing timeout
+    clearTimeout(globalSearchTimeout);
+    
+    // Set new timeout - wait 500ms after user stops typing
+    globalSearchTimeout = setTimeout(() => {
+        if (query.length > 0) {
+            const results = searchFiles(query);
+            showSearchResults(query, results);
+        }
+    }, 500);
 }
 
 function handleBrowseSearch(event) {
     const query = event.target.value.trim();
-    const filtered = searchFiles(query);
-    renderFilesGrid(filtered);
+    
+    // Clear existing timeout
+    clearTimeout(browseSearchTimeout);
+    
+    // Set new timeout - wait 300ms after user stops typing
+    browseSearchTimeout = setTimeout(() => {
+        const filtered = searchFiles(query);
+        renderFilesGrid(filtered);
+    }, 300);
 }
 
 function searchFiles(query) {
