@@ -1033,7 +1033,8 @@ async function initPDFViewer(file) {
     
     try {
         // Construct correct PDF path
-        const pdfUrl = `notes/${file.url}`;
+        const pdfUrl = `/notes/${file.url}`;
+
         console.log('Loading PDF from:', pdfUrl);
         
         // Load the actual PDF
