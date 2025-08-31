@@ -1,6 +1,6 @@
 # CS Notes Hub 📚
 
-A professional, modern platform for sharing and discovering Computer Science notes and resources. Built with vanilla JavaScript, featuring a beautiful neomorphic design with dark/light themes, real-time search, and seamless file management.
+A professional, modern platform for sharing and discovering 200+ Computer Science notes and resources. Built with vanilla JavaScript, featuring a beautiful neomorphic design with dark/light themes, real-time search, and seamless file management.
 
 ![CS Notes Hub](https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
 
