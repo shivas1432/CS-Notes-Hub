@@ -1,8 +1,28 @@
 # CS Notes Hub 📚
 
-A professional, modern platform for sharing and discovering Computer Science notes and resources. Built with vanilla JavaScript, featuring a beautiful neomorphic design with dark/light themes, real-time search, and seamless file management.
+A professional, modern platform for sharing and discovering 200+ Computer Science notes and resources. Built with vanilla JavaScript, featuring a beautiful neomorphic design with dark/light themes, real-time search, and seamless file management.
 
 ![CS Notes Hub](https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
+
+---
+
+## 🌐 Demo  
+🔗 **Live Demo**: [CS Notes Hub on Netlify](https://cs-notes-hub.netlify.app/)
+
+### 📸 Demo Screenshots
+<table>
+  <tr>
+    <td><img src="demo/cs1.png" alt="Demo Screenshot 1" width="500"></td>
+    <td><img src="demo/cs2.png" alt="Demo Screenshot 2" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="demo/cs3.png" alt="Demo Screenshot 3" width="500"></td>
+    <td><img src="demo/cs4.png" alt="Demo Screenshot 4" width="500"></td>
+  </tr>
+</table>
+
+
+---
 
 ## ✨ Features
 
@@ -37,6 +57,7 @@ A professional, modern platform for sharing and discovering Computer Science not
 - **Optimized Assets**: Compressed images and efficient loading
 - **SEO Friendly**: Proper meta tags and semantic HTML
 
+---
 ## 🏗️ Project Structure
 
 ```
